@@ -4,6 +4,14 @@ import java.util.Scanner;
 
 public class Function {
 
+    public static double salaryCalculator(double hoursPerWeek, double amountPerHour, double vacationDays) {
+        if (hoursPerWeek < 0 || amountPerHour < 0) {
+            return 0;
+        }
+        double unpaidTime = vacationDays * 8 * amountPerHour;
+        double weeklyPayCheck = hoursPerWeek * amountPerHour;
+        return weeklyPayCheck * 52 - unpaidTime;
+    }
     public static double calculateTotalMealPrice(double listedPrice, double tipRate, double taxRate) {
         double tip = tipRate * listedPrice;
         double tax = taxRate * listedPrice;
@@ -21,7 +29,10 @@ public class Function {
     public static void main(String[] args) {
         //announceTeaTime();
         //calculateTotalMealPrice( 15.5, 0.2, 0.15 );
-        double totalCost = calculateTotalMealPrice( 15.5, 0.2, 0.15 );
-        System.out.println(totalCost);
+        //double totalCost = calculateTotalMealPrice( 15.5, 0.2, 0.15 );
+        //System.out.println(totalCost);
+
+        double salary = salaryCalculator( 40, 15, 8 );
+        System.out.println(salary);
     }
 }
