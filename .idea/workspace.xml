@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a158099e-5089-4ab0-9e8b-25f9902380d6" name="Changes" comment="first commit" />
+    <list default="true" id="a158099e-5089-4ab0-9e8b-25f9902380d6" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainStudentProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +48,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Function">
+  <component name="RunManager" selected="Application.MainStudentProfile">
     <configuration name="Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Function" />
       <module name="LearningJava17" />
@@ -57,8 +63,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LearningJava17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainStudentProfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainStudentProfile" />
+      <module name="LearningJava17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainStudentProfile" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Function" />
         <item itemvalue="Application.HelloWorld" />
       </list>
@@ -73,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663605961586</updated>
       <workItem from="1663605962903" duration="1817000" />
-      <workItem from="1663608094219" duration="3760000" />
+      <workItem from="1663608094219" duration="6296000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1663606204773</created>
@@ -103,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663611902632</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1663612151855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663612151855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +180,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Function.java</url>
-          <line>20</line>
+          <line>28</line>
           <properties class="Function" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
